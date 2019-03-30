@@ -1,0 +1,24 @@
+{
+    "name": "elderscrollsblades/new",
+    "description": "elder scrolls: blades cheat engine",
+    "homepage": "https://non-cgplus.com/the-elder-scrolls-blades-cheats/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CLICK to use elder scrolls: blades cheat",
+            "homepage": "https://non-cgplus.com/the-elder-scrolls-blades-cheats/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "v\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
